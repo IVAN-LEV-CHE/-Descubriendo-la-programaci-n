@@ -1,6 +1,6 @@
 void main(){
-  background(211,11,11);
-  stroke(255,255,255);
+	background(211,11,11);
+	stroke(255,255,255);
 	strokeWeight(40);
 	line(0,160,320,160);
 	line(100,0,100,320);
