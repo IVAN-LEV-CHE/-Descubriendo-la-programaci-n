@@ -1,0 +1,11 @@
+void main(){
+  noStroke();
+  fill(233,121,0);
+  ellipse(100,80,70,70);
+  ellipse(220,80,70,70);
+  fill(153,79,0);
+  ellipse(100,80,50,50);
+  ellipse(220,80,50,50);
+  fill(233,121,0);
+  ellipse(160,160,200,200);
+}
