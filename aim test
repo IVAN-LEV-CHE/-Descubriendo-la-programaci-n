@@ -3,7 +3,10 @@ background(173,251,122);
 void square(){
   int x = round(random(300));
   int y = round(random(300));
-  rect(x,y,20,20);
+	int n;
+	for(n=1;n<=1;n++){
+  	rect(x,y,20,20);
+	}
 }
 
 void mouse(){
