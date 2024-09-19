@@ -1,18 +1,16 @@
 background(173,251,122);
 
-void square(){
-  int x = round(random(300));
-  int y = round(random(300));
-	int n;
-	for(n=1;n<=1;n++){
-  	rect(x,y,20,20);
-	}
-}
+int x = round(random(300));
+int y = round(random(300));
+int n;
 
 void mouse(){
   
 }
 
 void main(){
-	animate(square);
+	for(n=1;n<=1;n++){
+  	rect(x,y,20,20);
+	}
+	mouse();
 }
