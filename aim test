@@ -1,16 +1,28 @@
-background(173,251,122);
-
-int n;
 int x = round(random(300));
 int y = round(random(300));
+int n;
+
+void square(){
+  int x = round(random(300));
+	int y = round(random(300));
+
+  print("X: " + x + " Y: " + y);
+  
+  for(n=1;n<=1;n++){
+    rect(x,y,20,20);
+  }
+  animate(mouse);
+}
 
 void mouse(){
+  print("MX: " + mouseX + " "); println("MY: " + mouseY);
   
+  if(mousePressed && mouseButton == LEFTBUTTON && mouseX > x && mouseX < x + 20 && mouseY > y && mouseY < y + 20){
+    background(255,0,0);
+    square();
+  }
 }
 
 void main(){
-	for(n=1;n<=1;n++){
-  	rect(x,y,20,20);
-	}
-	mouse();
+  animate(square);
 }
