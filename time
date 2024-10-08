@@ -1,0 +1,10 @@
+background(209,61,208);
+
+void time(){
+  second();
+  println(second());
+}
+
+void main(){
+  animate(time);
+}
