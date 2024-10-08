@@ -1,0 +1,30 @@
+int x = 160;
+int y = 160;
+
+void circle(){
+  fill(77,235,104);
+  ellipse(x,y,20,20);
+}
+
+void player(){
+  background(96,184,255);
+  
+	if(y > 10 && keyPressed && key == "w"){
+		y = y-3;
+	}
+	if(x > 10 && keyPressed && key == "a"){
+		x = x-3;
+	}
+	if(y < 310 && keyPressed && key == "s"){
+		y = y+3;
+	}
+	if(x < 310 && keyPressed && key == "d"){
+		x = x+3;
+	}
+ 
+  circle();
+}
+
+void main(){
+  animate(player);
+}
