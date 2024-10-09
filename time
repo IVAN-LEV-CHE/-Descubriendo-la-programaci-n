@@ -1,10 +1,27 @@
-background(209,61,208);
+boolean a = false;
+int h = 0;
+int r = 0;
+int g = 0;
+int b = 0;
 
-void time(){
-  second();
-  println(second());
+void db(){
+  h++;
+  timer();
+}
+
+void timer(){
+  if(h % 5 == 0){
+    a = true;
+  }
+  if(a == true){
+    r = round(random(255));
+    g = round(random(255));
+    b = round(random(255));
+    a = false;
+    background(r,g,b);
+  }
 }
 
 void main(){
-  animate(time);
+  animate(db,1000);
 }
