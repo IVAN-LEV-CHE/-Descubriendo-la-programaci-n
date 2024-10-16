@@ -15,7 +15,9 @@ void sqr(){
 }
 
 void btn(){
-  
+  if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 200 && mouseY < 200 + 30){
+    
+  }
 }
 
 void main(){
