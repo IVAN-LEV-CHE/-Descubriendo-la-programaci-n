@@ -60,6 +60,9 @@ void btn(){
 
 void main(){
   img();
-  txt();
+  sqrC();
+  sqrT();
+  sqrJ();
   animate(btn);
+  txt();
 }
