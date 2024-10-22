@@ -11,23 +11,35 @@ int b2 = 101;
 int r3 = 79;
 int g3 = 255;
 int b3 = 101;
+int rr = 79;
+int gr = 255;
+int br = 101;
+int r2r = 79;
+int g2r = 255;
+int b2r;
+int r3r;
+int g3r;
+int b3r;
 
 void sqrC(){
   noStroke();
-  fill(r,g,b);
+  fill(rr,gr,br);
   rect(110,200,120,30);
+  txt();
 }
 
 void sqrT(){
   noStroke();
-  fill(r2,g2,b2);
+  fill(r2r,g2r,b2r);
   rect(110,160,120,30);
+  txt();
 }
 
 void sqrJ(){
   noStroke();
-  fill(r3,g3,b3);
+  fill(r3r,g3r,b3r);
   rect(110,120,120,30);
+  txt();
 }
 
 void txt(){
@@ -39,21 +51,21 @@ void txt(){
 
 void btn(){
   if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 200 && mouseY < 200 + 30){
-    int r = round(random(255));
-		int g = round(random(255));
-		int b = round(random(255));
+    int rr = round(random(255));
+		int gr = round(random(255));
+		int br = round(random(255));
     sqrC();
   }
   if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 160 && mouseY < 160 + 30){
-    int r2 = round(random(255));
-		int g2 = round(random(255));
-		int b2 = round(random(255));
+    int r2r = round(random(255));
+		int g2r = round(random(255));
+		int b2r = round(random(255));
     sqrT();
   }
   if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 120 && mouseY < 120 + 30){
-    int r3 = round(random(255));
-		int g3 = round(random(255));
-		int b3 = round(random(255));
+    int r3r = round(random(255));
+		int g3r = round(random(255));
+		int b3r = round(random(255));
 		sqrJ();
   }
 }
