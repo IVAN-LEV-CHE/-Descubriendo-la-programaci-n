@@ -24,6 +24,13 @@ void sqrC(){
   txt();
 }
 
+void cr(){
+	image("https://weebolt.com/cdn/shop/products/c23265a47410c5c793f33d86da743563_320x.jpg?v=1669972697",0,0,320,320);
+	fill(255,255,255);
+  text("Esta abominación fue creada por:",20,20);
+  text("Iván Levchenko Chernobay",50,310);
+}
+
 void sqrT(){
   noStroke();
   fill(r,g,b);
@@ -54,17 +61,26 @@ void btn(){
 		int br = round(random(255));
     sqrC();
   }
+  if(mousePressed && mouseButton == LEFTBUTTON && mouseX > 110 && mouseX < 110 + 120 && mouseY > 200 && mouseY < 200 + 30){
+    animate(cr);
+  }
   if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 160 && mouseY < 160 + 30){
     int r2r = round(random(255));
 		int g2r = round(random(255));
 		int b2r = round(random(255));
     sqrT();
   }
+  if(mousePressed && mouseButton == LEFTBUTTON && mouseX > 110 && mouseX < 110 + 120 && mouseY > 160 && mouseY < 160 + 30){
+    
+  }
   if(mouseX > 110 && mouseX < 110 + 120 && mouseY > 120 && mouseY < 120 + 30){
     int r3r = round(random(255));
 		int g3r = round(random(255));
 		int b3r = round(random(255));
 		sqrJ();
+  }
+  if(mousePressed && mouseButton == LEFTBUTTON && mouseX > 110 && mouseX < 110 + 120 && mouseY > 120 && mouseY < 120 + 30){
+    
   }
 }
 
