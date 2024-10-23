@@ -5,17 +5,12 @@ void img(){
 int r = 79;
 int g = 255;
 int b = 101;
-int r2 = 79;
-int g2 = 255;
-int b2 = 101;
-int r3 = 79;
-int g3 = 255;
-int b3 = 101;
-int rr = 79;
-int gr = 255;
-int br = 101;
-int r2r = 79;
-int g2r = 255;
+
+int rr;
+int gr;
+int br;
+int r2r;
+int g2r;
 int b2r;
 int r3r;
 int g3r;
@@ -23,6 +18,7 @@ int b3r;
 
 void sqrC(){
   noStroke();
+  fill(r,g,b);
   fill(rr,gr,br);
   rect(110,200,120,30);
   txt();
@@ -30,6 +26,7 @@ void sqrC(){
 
 void sqrT(){
   noStroke();
+  fill(r,g,b);
   fill(r2r,g2r,b2r);
   rect(110,160,120,30);
   txt();
@@ -37,6 +34,7 @@ void sqrT(){
 
 void sqrJ(){
   noStroke();
+  fill(r,g,b);
   fill(r3r,g3r,b3r);
   rect(110,120,120,30);
   txt();
