@@ -6,13 +6,16 @@ void player(){
   ellipse(mouseX,mouseY,10,10);
 }
 
-int x = round(random(320));
-int y = round(random(320));
-
 void projectiles(){
+  int x = round(random(320));
+	int y = 0;
+  ellipse(x,y,6,6);
   
+
 }
 
 void main(){
+  
   animate(player,1);
+  animate(projectiles);
 }
