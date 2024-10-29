@@ -1,0 +1,18 @@
+background(41,99,183);
+
+void player(){
+  background(41,99,183);
+  fill(255,24,24);
+  ellipse(mouseX,mouseY,10,10);
+}
+
+int x = round(random(320));
+int y = round(random(320));
+
+void projectiles(){
+  
+}
+
+void main(){
+  animate(player,1);
+}
