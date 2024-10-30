@@ -1,21 +1,36 @@
 background(41,99,183);
 
 void player(){
-  background(41,99,183);
+	background(41,99,183);
   fill(255,24,24);
   ellipse(mouseX,mouseY,10,10);
 }
 
-void projectiles(){
-  int x = round(random(320));
-	int y = 0;
+int y = 0;
+int a;
+void projectiles(int x){
+	
   ellipse(x,y,6,6);
-  
+}
 
+void time(){
+  a++;
+  if(a%25==1){
+		println("potato");
+  }
+ 
+}
+
+void f(){
+  
+}
+
+void all(){
+  player();
+  projectiles(round(random(320)));
+  time();
 }
 
 void main(){
-  
-  animate(player,1);
-  animate(projectiles);
+  animate(all);
 }
