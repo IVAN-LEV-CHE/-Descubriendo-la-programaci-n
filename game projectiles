@@ -320,10 +320,1291 @@ int y317 = 0;
 int y318 = 0;
 int y319 = 0;
 int y320 = 0;
+int y321 = 0;
 
 void maid(){
   if(a == 0){
-  	ellipse(0,y1,5,5);
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 1){
+  	ellipse(a,y1,5,5);
+    y2++;
+  }
+  if(a == 2){
+  	ellipse(a,y1,5,5);
+    y3++;
+  }  
+  if(a == 3){
+  	ellipse(a,y1,5,5);
+    y4++;
+  }  
+  if(a == 4){
+  	ellipse(a,y1,5,5);
+    y5++;
+  }  
+  if(a == 5){
+  	ellipse(a,y1,5,5);
+    y6++;
+  }  
+  if(a == 6){
+  	ellipse(a,y1,5,5);
+    y7++;
+  }  
+  if(a == 7){
+  	ellipse(a,y1,5,5);
+    y8++;
+  }  
+  if(a == 8){
+  	ellipse(a,y1,5,5);
+    y9++;
+  }  
+  if(a == 9){
+  	ellipse(a,y1,5,5);
+    y10++;
+  }  
+  if(a == 10){
+  	ellipse(a,y1,5,5);
+    y11++;
+  }
+  if(a == 11){
+  	ellipse(a,y1,5,5);
+    y12++;
+  }
+  if(a == 12){
+  	ellipse(a,y1,5,5);
+    y13++;
+  }  
+  if(a == 13){
+  	ellipse(a,y1,5,5);
+    y14++;
+  }  
+  if(a == 14){
+  	ellipse(a,y1,5,5);
+    y15++;
+  }  
+  if(a == 15){
+  	ellipse(a,y1,5,5);
+    y16++;
+  }  
+  if(a == 16){
+  	ellipse(a,y1,5,5);
+    y17++;
+  }  
+  if(a == 17){
+  	ellipse(a,y1,5,5);
+    y18++;
+  }  
+  if(a == 18){
+  	ellipse(a,y1,5,5);
+    y19++;
+  }  
+  if(a == 19){
+  	ellipse(a,y1,5,5);
+    y20++;
+  }  
+  if(a == 20){
+  	ellipse(a,y1,5,5);
+    y21++;
+  }
+  if(a == 21){
+  	ellipse(a,y1,5,5);
+    y22++;
+  }
+  if(a == 22){
+  	ellipse(a,y1,5,5);
+    y23++;
+  }  
+  if(a == 23){
+  	ellipse(a,y1,5,5);
+    y24++;
+  }  
+  if(a == 24){
+  	ellipse(a,y1,5,5);
+    y25++;
+  }  
+  if(a == 25){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 26){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 27){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 28){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 29){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 30){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 31){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 32){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 33){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 34){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 35){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 36){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 37){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 38){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 39){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 40){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 41){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 42){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 43){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 44){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 45){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 46){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 47){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 48){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 49){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 50){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 51){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 52){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 53){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 54){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 55){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 56){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 57){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 58){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 59){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 60){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 61){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 62){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 63){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 64){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 65){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 66){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 67){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 68){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 69){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 70){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 71){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 72){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 73){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 74){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 75){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 76){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 77){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 78){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 79){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 80){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 81){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 82){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 83){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 84){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 85){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 86){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 87){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 88){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 89){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 90){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 91){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 92){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 93){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 94){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 95){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 96){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 97){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 98){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 99){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+ if(a == 100){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 101){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 102){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 103){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 104){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 105){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 106){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 107){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 108){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 109){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 110){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 111){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 112){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 113){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 114){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 115){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 116){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 117){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 118){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 119){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 120){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 121){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 122){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 123){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 124){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 125){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 126){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 127){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 128){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 129){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 130){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 131){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 132){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 133){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 134){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 135){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 136){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 137){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 138){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 139){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 140){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 141){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 142){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 143){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 144){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 145){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 146){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 147){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 148){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 149){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 150){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 151){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 152){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 153){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 154){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 155){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 156){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 157){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 158){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 159){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 160){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 161){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 162){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 163){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 164){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 165){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 166){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 167){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 168){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 169){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 170){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 171){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 172){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 173){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 174){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 175){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 176){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 177){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 178){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 179){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 180){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 181){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 182){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 183){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 184){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 185){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 186){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 187){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 188){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 189){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 190){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 191){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 192){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 193){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 194){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 195){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 196){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 197){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 198){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 199){
+  	ellipse(a,y1,5,5);
+    y1++;
+  } 
+  if(a == 200){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 201){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 202){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 203){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 204){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 205){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 206){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 207){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 208){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 209){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 210){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 211){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 212){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 213){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 214){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 215){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 216){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 217){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 218){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 219){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 220){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 221){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 222){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 223){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 224){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 225){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 226){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 227){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 228){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 229){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 230){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 231){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 232){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 233){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 234){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 235){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 236){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 237){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 238){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 239){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 240){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 241){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 242){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 243){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 244){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 245){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 246){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 247){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 248){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 249){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 250){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 251){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 252){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 253){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 254){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 255){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 256){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 257){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 258){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 259){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 260){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 261){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 262){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 263){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 264){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 265){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 266){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 267){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 268){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 269){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 270){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 271){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 272){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 273){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 274){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 275){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 276){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 277){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 278){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 279){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 280){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 281){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 282){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 283){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 284){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 285){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 286){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 287){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 288){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 289){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 290){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 291){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 292){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 293){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 294){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 295){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 296){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 297){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 298){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 299){
+  	ellipse(a,y1,5,5);
+    y1++;
+  } 
+  if(a == 300){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 301){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 302){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 303){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 304){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 305){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 306){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 307){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 308){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 309){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 310){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 311){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }
+  if(a == 312){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 313){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 314){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 315){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 316){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 317){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 318){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 319){
+  	ellipse(a,y1,5,5);
+    y1++;
+  }  
+  if(a == 320){
+  	ellipse(a,y1,5,5);
     y1++;
   }
 }
