@@ -34,12 +34,15 @@ int y33 = 0;
 
 
 void maid(){
-	int a = round(random(32));
-  
-if(n%2==0){
+  int a = round(random(32));
+   /*
+  background(205,84,84);
+	
+ 
+	if(n%2==0){
   	int a = round(random(32));
   }
-
+	*/
   if(a == 0){
   	ellipse(a*10,y1,10,10);
     y1 = y1+5;
