@@ -1,27 +1,42 @@
-boolean a = false;
-int h = 0;
-int r = 0;
-int g = 0;
-int b = 0;
+background(88,185,205);
+double x = 320;
+int time = 0;
+int block = round(random(50,280));
+boolean a;
 
-void db(){
-  h++;
+void timer(){
+  time++;
+}
+
+void t1(){
+  
+   if(time%25 == 0){
+     a = true;
+  }
+  if(a==true){
+    block = round(random(50,280));
+  }
+  fill(29,215,16);
+  rect(x+50,block,50,300);
+  rect(x+50,block-370,50,300);
+  x = x-5;
+}
+
+void t2(){
+  block = round(random(50,280));
+  fill(29,215,16);
+  rect(x,block,50,300);
+  rect(x,block-370,50,300);
+  x = x-0.1;
+}
+
+void maid(){
+  background(88,185,205);
+  t1();
+  t2();
   timer();
 }
 
-void timer(){
-  if(h % 5 == 0){
-    a = true;
-  }
-  if(a == true){
-    r = round(random(255));
-    g = round(random(255));
-    b = round(random(255));
-    a = false;
-    background(r,g,b);
-  }
-}
-
 void main(){
-  animate(db,1000);
+  animate(maid,40);
 }
