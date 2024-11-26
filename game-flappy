@@ -1,14 +1,13 @@
-int x = 320;
+int x1 = 30;
+int x2 = 130;
+int x3 = 250;
 
 void maid(){
-
   int block = round(random(50,280));
   fill(29,215,16);
-  rect(x,block,50,300);
-  rect(x,block-370,50,300);
-  /*
+  rect(x1,block,50,300);
+  rect(x1,block-370,50,300);
   x = x-5;
-	*/
 }
 
 void main(){
