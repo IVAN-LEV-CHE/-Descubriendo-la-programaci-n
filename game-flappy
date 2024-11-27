@@ -1,15 +1,49 @@
+background(63,193,251);
+
 int x1 = 30;
 int x2 = 130;
 int x3 = 250;
 
-void maid(){
-  int block = round(random(50,280));
-  fill(29,215,16);
-  rect(x1,block,50,300);
-  rect(x1,block-370,50,300);
-  x = x-5;
+void ram(){
+  int n;
+  for(;n<1;n++){
+    int block = round(random(50,280));
+    fill(29,215,16);
+ 	  rect(x1,block,60,300);
+  	rect(x1,block-370,60,300);
+  }
+  x1 = x1-5;
+}
+
+void rem(){
+  int n;
+  for(;n<1;n++){
+    int block = round(random(50,280));
+    fill(29,215,16);
+ 	  rect(x2,block,60,300);
+  	rect(x2,block-370,60,300);
+  }
+  x2 = x2-5;
+}
+
+void emilia(){
+  int n;
+  for(;n<1;n++){
+    int block = round(random(50,280));
+    fill(29,215,16);
+ 	  rect(x3,block,60,300);
+  	rect(x3,block-370,60,300);
+  }
+  x3 = x3-5;
+}
+
+void subaru(){
+  background(63,193,251);
+	ram();
+  rem();
+  emilia();
 }
 
 void main(){
-  maid();
+  animate(subaru);
 }
