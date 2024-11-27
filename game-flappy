@@ -25,16 +25,19 @@ void rem(){
   }
   x2 = x2-5;
 }
-
+int block = round(random(50,280));
 void emilia(){
-  int n;
-  for(;n<1;n++){
-    int block = round(random(50,280));
+ 
+    
     fill(29,215,16);
  	  rect(x3,block,60,300);
   	rect(x3,block-370,60,300);
-  }
+  
   x3 = x3-5;
+  if(x3<=0 ){
+    block = round(random(50,280));
+    x3=330;
+  }
 }
 
 void subaru(){
