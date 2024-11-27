@@ -4,27 +4,30 @@ int x1 = 30;
 int x2 = 130;
 int x3 = 250;
 
+int block1 = round(random(50,280));
 void ram(){
-  int n;
-  for(;n<1;n++){
-    int block = round(random(50,280));
-    fill(29,215,16);
- 	  rect(x1,block,60,300);
-  	rect(x1,block-370,60,300);
-  }
+  fill(29,215,16);
+ 	rect(x1,block1,60,300);
+  rect(x1,block1-370,60,300);
   x1 = x1-5;
+  if(x1<=0 ){
+    block1 = round(random(50,280));
+    x1=330;
+  }
 }
 
+int block2 = round(random(50,280));
 void rem(){
-  int n;
-  for(;n<1;n++){
-    int block = round(random(50,280));
-    fill(29,215,16);
- 	  rect(x2,block,60,300);
-  	rect(x2,block-370,60,300);
-  }
+  fill(29,215,16);
+ 	rect(x2,block2,60,300);
+  rect(x2,block2-370,60,300);
   x2 = x2-5;
+  if(x2<=0 ){
+    block2 = round(random(50,280));
+    x2=330;
+  }
 }
+
 int block3 = round(random(50,280));
 void emilia(){   
   fill(29,215,16);
