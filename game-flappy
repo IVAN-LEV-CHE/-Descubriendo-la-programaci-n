@@ -58,6 +58,7 @@ void subaru(){
 	ram();
   rem();
   emilia();
+	felis();
 }
 
 void main(){
