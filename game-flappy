@@ -1,8 +1,9 @@
 background(63,193,251);
 
-int x1 = 30;
-int x2 = 130;
-int x3 = 250;
+int x1 = 320;
+int x2 = 520;
+int x3 = 720;
+int x4 = 920;
 
 int block1 = round(random(50,280));
 void ram(){
@@ -10,9 +11,9 @@ void ram(){
  	rect(x1,block1,60,300);
   rect(x1,block1-370,60,300);
   x1 = x1-5;
-  if(x1<=0 ){
+  if(x1<=-480){
     block1 = round(random(50,280));
-    x1=330;
+    x1=320;
   }
 }
 
@@ -22,9 +23,9 @@ void rem(){
  	rect(x2,block2,60,300);
   rect(x2,block2-370,60,300);
   x2 = x2-5;
-  if(x2<=0 ){
+  if(x2<=-480){
     block2 = round(random(50,280));
-    x2=330;
+    x2=320;
   }
 }
 
@@ -34,10 +35,22 @@ void emilia(){
  	rect(x3,block3,60,300);
   rect(x3,block3-370,60,300);
   x3 = x3-5;
-  if(x3<=0 ){
+  if(x3<=-480){
     block3 = round(random(50,280));
-    x3=330;
+    x3=320;
   }
+}
+
+int block4 = round(random(50,280));
+void felis(){
+	fill(29,215,16);
+	rect(x4,block4,60,300);
+	rect(x4,block4-370,60,300);
+	x4 = x4-5;
+	if(x4<=-480){
+		block4 = round(random(50,280));
+		x4 = 320;
+	}
 }
 
 void subaru(){
