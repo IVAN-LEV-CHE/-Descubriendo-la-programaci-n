@@ -56,7 +56,7 @@ void felis(){
 int y = 140;
 void bird(){
 	rect(40,y,20,20);
-	y = y + 10;
+	y = y + 7;
 	if(keyPressed && key == "w"){
 		y = y - 50;
 	}
